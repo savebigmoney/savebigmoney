@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SAVE BIG MONEY AT MY NARDS</title>
+		<style>
+			html,
+			body {
+				margin: 0;
+				height: 100%;
+			}
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				overflow: hidden;
+			}
+			img {
+				width: 100vw;
+				height: 100vh;
+				object-fit: fill;
+			}
+			#scrolling-text {
+				position: absolute;
+				top: 10%;
+				left: 0;
+				white-space: nowrap;
+				font-size: 300px;
+				font-weight: bold;
+				color: #ff00bb;
+				text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000,
+					5px 5px 0 #000;
+				animation: scrollText 2s linear infinite;
+			}
+			@keyframes scrollText {
+				0% {
+					transform: translateX(100%);
+				}
+				100% {
+					transform: translateX(-100%);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!--<img src="./mynard.png" />-->
+		<img src="./bignards2.webp" />
+		<audio loop>
+			<source src="fart.mp3" type="audio/mpeg" />
+			Your browser does fart this audio element.
+		</audio>
+		<div id="scrolling-text">SAVE BIG MONEY</div>
+		<script>
+			function doAnal() {
+				const fartSound = document.querySelector("audio");
+				fartSound.play();
+			}
+
+			window.addEventListener("click", doAnal);
+			window.addEventListener("keydown", doAnal);
+		</script>
+	</body>
+</html>
